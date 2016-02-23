@@ -1,5 +1,5 @@
-public class IntersectionNode {
-	public static NodeLink MergePoint(NodeLink headA,NodeLink headB){
+public class MergePoint {
+	public static NodeLink MergingNode(NodeLink headA,NodeLink headB){
 		
 		int a=findLength(headA);
 		int b=findLength(headB);
@@ -54,7 +54,7 @@ public class IntersectionNode {
 		second.next=third;
 //		third.next=eight;
 		
-		NodeLink result=MergePoint(headA,headB);
+		NodeLink result=MergingNode(headA,headB);
 		System.out.println(result.data);
 		
 	}
