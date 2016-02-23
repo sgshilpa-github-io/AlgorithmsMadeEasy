@@ -25,7 +25,8 @@ public class MergePoint {
 
 	private static int findLength(NodeLink headA) {
 		int count=0;
-		if(headA==null){
+		if(headA==null)
+		{
 			return 0;
 		}
 		while(headA!=null){
